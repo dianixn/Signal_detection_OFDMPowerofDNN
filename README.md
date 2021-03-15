@@ -14,3 +14,5 @@ Demonstration_of_papers_DNN is main
 DNN_Regression_Image_SER_Test for taining
 
 Dont need use Test_DNN_regression and Train_DNN necessarily
+
+The_rest includes LSTM, classification and use sequence layer as input layer, but not that relative. I just tried to see if I can implement LSTM and that stuff.
