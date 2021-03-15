@@ -1,7 +1,7 @@
 # Signal_detection_OFDMPowerofDNN
 MATLAB demonstration for the paper 'Power of Deep Learning for Channel Estimation and Signal Detection in OFDM Systems'
 
-Rayleigh channel deployed, for the winner2 channel install that toolbox but more time will be spent on channel realization
+Rayleigh channel deployed, for the winner2 channel install that toolbox but more time will be spent on channel realization and commu.AWGN(fading signal, SNR) not transmitted signal, I remembered that I % commu.AWGN codes
 
 MMSE_Channel_Tap_Block_Pilot_Demo_1.m from MIMO-OFDM wireless communication book
 
