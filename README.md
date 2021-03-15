@@ -8,3 +8,9 @@ MMSE_Channel_Tap_Block_Pilot_Demo_1.m from MIMO-OFDM wireless communication book
 MMSE_Uniform_PDP.m the paper of OFDM Channel Estimation by Singular Value Decomposition
 
 Did not upload python version, there's a python demonstration uploaded by others
+
+Demonstration_of_papers_DNN is main
+
+DNN_Regression_Image_SER_Test for taining
+
+Dont need use Test_DNN_regression and Train_DNN necessarily
