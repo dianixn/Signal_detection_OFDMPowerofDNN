@@ -16,3 +16,7 @@ DNN_Regression_Image_SER_Test for taining
 Dont need use Test_DNN_regression and Train_DNN necessarily
 
 The_rest includes LSTM, classification and use sequence layer as input layer, but not that relative. I just tried to see if I can implement LSTM and what effects would be if I changed to different layers
+
+update on 2021.04.10
+
+Hi, someone has a question on Loss of DNN_Classification_Trained.mat. The solution is that, you need to run DNN_Regression_Image_SER_Test.m to ontain an DNN_trained which is a trained NN, and save that as DNN_Classification_Trained.mat with commend save('DNN_Classification_Trained.mat', 'DNN_trained'). It allows you to make changes to training options so you can try some changes in changes to see if you can improve the performance.
