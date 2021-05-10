@@ -7,7 +7,7 @@ MMSE_Channel_Tap_Block_Pilot_Demo_1.m from MIMO-OFDM wireless communication book
 
 MMSE_Uniform_PDP.m the paper of OFDM Channel Estimation by Singular Value Decomposition
 
-Did not upload python version, there's a python demonstration uploaded by others
+Did not upload python version, there's a python demonstration uploaded by the author
 
 Demonstration_of_papers_DNN is main
 
