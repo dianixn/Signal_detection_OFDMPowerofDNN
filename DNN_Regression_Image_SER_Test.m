@@ -31,20 +31,3 @@ Options = trainingOptions('rmsprop', ...
 
 % Train Network
 [DNN_Trained, info] = trainNetwork(XTrain, Ytraining_regression, Layers, Options);
-
-% Test Network
-SNR_Test = 5;
-
-[~, XTrain_test, Ytraining_regression_test, ~, ~] = Data_Generation(1, SNR_Test, 10000);
-Ypred_test = predict(DNN_Trained, XTrain_test);
-
-Ytraining_regression_Test = Ytraining_regression_test';%transpose(Ytraining_regression_test)
-Ypred_Test = transpose(Ypred_test);
-
-Label_symbol = Ytraining_regression_Test(1:2:end, :) + 1j * Ytraining_regression_Test(2:2:end, :);
-Label_dataSym = QPSK_Demodulator(Label_symbol);
-
-Predicted_symbols = Ypred_Test(1:2:end, :) + 1j * Ypred_Test(2:2:end, :);
-Predicted_dataSym = QPSK_Demodulator(Predicted_symbols);
-
-SER = sum(Predicted_dataSym ~= Label_dataSym) / length(Label_dataSym);
