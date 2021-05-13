@@ -1,5 +1,5 @@
 # Signal_detection_OFDMPowerofDNN
-MATLAB demonstration for the paper 'Power of Deep Learning for Channel Estimation and Signal Detection in OFDM Systems'
+MATLAB demonstration for the paper 'Power of Deep Learning for Channel Estimation and Signal Detection in OFDM Systems' @ MATLAB R2020b
 
 Rayleigh channel deployed, for the winner2 channel (Data_Generation_WIN2.m shows WIN2 for SISO) install that toolbox but more time will be spent on channel realization, so not suggested, and commu.AWGN(fading signal, SNR) not transmitted signal, I remembered that I % commu.AWGN codes
 
