@@ -5,7 +5,7 @@ SNR = 30;
 Num_of_training_and_validation_frame = 75000;
 
 [~, XTrain, ~, ~, Ytraining_regression, ~, ~, ~] = Data_Generation(Training_Set_Rate, SNR, Num_of_training_and_validation_frame);
-[DNN_Trained, info] = Train_DNN(XTrain, YTrain, Training_Set_Rate);
+[DNN_Trained, info] = Train_DNN(XTrain, Ytraining_regression, Training_Set_Rate);
 
 SNR_Range = 5:25;
 DNN_BER_over_SNR = zeros(length(SNR_Range), 1);
