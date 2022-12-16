@@ -19,4 +19,4 @@ The_rest includes LSTM, classification and use sequence layer as input layer, bu
 
 update on 2021.04.10
 
-Hi, someone has a question on Loss of DNN_Classification_Trained.mat. The solution is that, you need to run DNN_Regression_Image_SER_Test.m to ontain an DNN_trained which is a trained NN, and save that as XXX.mat with commend save('XXX.mat', 'DNN_trained'). In the Demonstraion file, there's a load commend, then change it to load('XXX.mat'). It allows you to make changes to training options so you can try some changes in changes to see if you can improve the performance.
+Hi, someone has a question on Loss of DNN_Classification_Trained.mat. The solution is that, you need to run DNN_Regression_Image_SER_Test.m to ontain an DNN_trained which is a trained NN, and save that as XXX.mat with commend save('XXX.mat', 'DNN_trained'). In the Demonstraion file, there's a load commend, then change it to load('XXX.mat'). It allows you to make changes to training options so you can try some changes to see if you can improve the performance.
